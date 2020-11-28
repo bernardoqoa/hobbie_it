@@ -46,11 +46,22 @@ def cosultar_usu():
     lista_usuarios = usuarios.readlines()
     usu = input('Digite o nome de usuário:')
     for x in range(len(lista_usuarios)):
-        usu_info = lista_usuarios[0].split(',')
+        usu_info = lista_usuarios[x].split(',')
         if usu == usu_info[0]:
             indice = x
-    print(indice)
-
+    usu_info = lista_usuarios[indice].split(',')
+    print(f'Nome: {usu_info[1]}')
+    print(f'Nome de usuário: {usu_info[0]}')
+    print(f'Email: {usu_info[2]}')
+    print(f'Curso: {usu_info[4]}')
+    print(f'Telefone: {usu_info[5]}')
+    l = []
+    for y in usu_info[6:]:
+        if usu_info.index(y) != (len(usu_info)-1):
+            l.append(y)
+        else:
+            l.append(y.replace("\n", ""))
+    print(f'Interesses: {l}')
 
 
 #def editar_usu():
