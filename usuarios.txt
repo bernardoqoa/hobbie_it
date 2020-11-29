@@ -1,3 +1,2 @@
-berna,bernardo,bqoa@,12,cc,3442,JOGOS,MÚSICA,FILMES
-vini,vinicius,vini@,123,cc,3442,JOGOS
-yu,yura,yu@,123,cc,3442,JOGOS
+berna,bernardo,bqoa@,222,cc,3442,JOGOS
+vini1,vinicius,vini@,124,cc,111,JOGOS,MÚSICA,FUTEBOL,FILMES

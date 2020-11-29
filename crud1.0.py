@@ -1,4 +1,4 @@
-from funcoes_usuarios import *
+from funcoes_crud import *
 
 
 def main():
@@ -15,12 +15,12 @@ def main():
             cadastrar_usu()
         elif opcao == 2:
             cosultar_usu()
-#       elif opcao == 3:
-#           editar_usu()
-#       elif opcao == 4:
-#           apagar_usu()
-#       elif opcao == -1:
-#           print('Programa finalizado com sucesso!')
+        elif opcao == 3:
+            editar_usu()
+        elif opcao == 4:
+            apagar_usu()
+        elif opcao == -1:
+            print('Programa finalizado com sucesso!')
 
 
 # Programa principal
